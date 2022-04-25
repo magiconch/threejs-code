@@ -1,0 +1,32 @@
+{
+  "name": "threejs-code",
+  "version": "1.0.0",
+  "description": "Learning threejs",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magiconch/threejs-code.git"
+  },
+  "author": "magiconch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magiconch/threejs-code/issues"
+  },
+  "homepage": "https://github.com/magiconch/threejs-code#readme",
+  "devDependencies": {
+    "@types/three": "^0.139.0",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.13.0",
+    "three": "^0.139.2",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.3",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  }
+}
