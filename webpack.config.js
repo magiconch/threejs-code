@@ -18,10 +18,14 @@ module.exports = {
             {
                 test: /\.ts?$/,
                 exclude: /node_modules/,
-                loader: "ts-loader"
+                loader: "ts-loader",
             },
+            // {
+            //     test: /\.ts$/i,
+            //     type: 'asset/resource'
+            // },
             {
-                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                test: /\.(png|svg|jpg|jpeg|gif|hdr)$/i,
                 type: 'asset/resource',
             },
         ]
